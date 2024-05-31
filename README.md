@@ -47,16 +47,6 @@ node createEtherealAccount.js
 3. Copy the generated credentials into the `.env` file.
 
 
-
-
-You
-Send Emails with Nodemailer using Ethereal git hub redme.md file
-ChatGPT
-ChatGPT
-Certainly! Below is a README.md file for a project that sends emails using Nodemailer and Ethereal. This file provides a comprehensive guide on how to set up and use the project.
-
-markdown
-
 # Nodemailer with Ethereal Email
 
 This project demonstrates how to send emails using Nodemailer and Ethereal, a service for generating test email accounts.
@@ -70,8 +60,8 @@ This project demonstrates how to send emails using Nodemailer and Ethereal, a se
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nodemailer-ethereal.git
-   cd nodemailer-ethereal
+    git clone https://github.com/dipenpatel0017/nodeEmail-master.git
+   cd nodeEmail-master
 Install the dependencies:
 ```bash
 npm install
