@@ -13,53 +13,6 @@ This project demonstrates how to send emails using Nodemailer and Ethereal, a se
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dipenpatel0017/nodeEmail-master.git
-   cd nodeEmail-master
-   
-2. Install the dependencies:
-   ```bash
-   npm install
-Setup
-1. Create a file named `.env` in the root directory of the project.
-
-2. Add the following environment variables to the `.env` file:
-
-ETHEREAL_USER=your_ethereal_user
-ETHEREAL_PASS=your_ethereal_password
-
-- You can generate Ethereal credentials using the following script:
-  
-  const nodemailer = require('nodemailer');
-
-async function createEtherealAccount() {
-    let testAccount = await nodemailer.createTestAccount();
-    console.log('Ethereal Account:');
-    console.log(`User: ${testAccount.user}`);
-    console.log(`Pass: ${testAccount.pass}`);
-}
-
-createEtherealAccount().catch(console.error);
-
-- Run the script:
-```bash
-node createEtherealAccount.js
-```
-3. Copy the generated credentials into the `.env` file.
-
-
-# Nodemailer with Ethereal Email
-
-This project demonstrates how to send emails using Nodemailer and Ethereal, a service for generating test email accounts.
-
-## Prerequisites
-
-- Node.js installed on your machine
-- An internet connection to download dependencies and communicate with the Ethereal service
-
-## Installation
-
-1. Clone the repository:
-   ```bash
     git clone https://github.com/dipenpatel0017/nodeEmail-master.git
    cd nodeEmail-master
 Install the dependencies:
@@ -69,11 +22,11 @@ npm install
 Setup
 Create a file named .env in the root directory of the project.
 
-Add the following environment variables to the .env file:
-
-env
+2. Add the following environment variables to the .env file:
+```bash
 ETHEREAL_USER=your_ethereal_user
 ETHEREAL_PASS=your_ethereal_password
+```
 
 You can generate Ethereal credentials using the following script:
 ```bash
@@ -95,7 +48,7 @@ Run the script:
 
 node createEtherealAccount.js
 ```
-Copy the generated credentials into the `.env` file.
+3. Copy the generated credentials into the `.env` file.
 
 Usage
 1. Update the sendEmail.js file with the recipient email and message details.
