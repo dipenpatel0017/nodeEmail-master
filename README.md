@@ -99,4 +99,14 @@ This project is licensed under the MIT License.
 ```bash 
 This README file provides clear instructions on setting up and running a Node.js project that sends emails using Nodemailer and Ethereal. It includes steps for installing dependencies, configuring environment variables, and running the email-sending script.
 ```
+### Output
+
+![Screenshot 2024-05-31 181227](https://github.com/dipenpatel0017/nodeEmail-master/assets/154975783/97ade65f-58ec-4e72-9756-a59d02606122)
+
+```bash
+localhost:5000/mail
+```
+![Screenshot 2024-05-31 181116](https://github.com/dipenpatel0017/nodeEmail-master/assets/154975783/ac7043c3-ec9f-4786-abe6-1353ef0c3cc1)
+
+
 
