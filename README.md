@@ -108,5 +108,15 @@ localhost:5000/mail
 ```
 ![Screenshot 2024-05-31 181116](https://github.com/dipenpatel0017/nodeEmail-master/assets/154975783/ac7043c3-ec9f-4786-abe6-1353ef0c3cc1)
 
+### Ethereal Email view on the website above..
+- creat a new file this site
+```bash
+https://ethereal.email/
+```
+![Screenshot 2024-05-31 181056](https://github.com/dipenpatel0017/nodeEmail-master/assets/154975783/73816d90-fb60-42ca-9c2d-96ba148843b8)
+
+
+
+
 
 
