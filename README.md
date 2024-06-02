@@ -8,6 +8,7 @@ This project demonstrates how to send emails using Nodemailer and Ethereal, a se
 
 - Node.js installed on your machine
 - An internet connection to download dependencies and communicate with the Ethereal service
+- download dependencies injected the Vscode on the terminal bar
 
 ## Installation
 
